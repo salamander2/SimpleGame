@@ -52,7 +52,7 @@ public class Bounce1 {
 			
 			//draw ball
 			synchronized(gc) {
-				gc.clear();
+				//gc.clear();
 				gc.fillOval(x,y,size,size);
 			}
 			
@@ -65,7 +65,7 @@ public class Bounce1 {
 		gc.setTitle("Bouncing ball");
 		gc.setLocationRelativeTo(null);
 		gc.setAntiAlias(true);
-		gc.setBackgroundColor(Color.WHITE);
+		gc.setBackgroundColor(Color.BLACK);
 		gc.clear();
 		gc.setColor(Color.RED);
 		gc.setResizable(false);
